@@ -18,7 +18,10 @@ then you can use the following command to run
 
 Kinship_classifier.py is for the Decision Tree Model. Again, you will need to pass the data directory to run the script.
 - python3 Kinship_classifier.py /data
-Please note that in its intermediate steps, it will output some csv files, so please make sure the working directory has read and write permission.
+
+Please note that in its intermediate steps, it will output some csv files, so please make sure the working directory has read and write permission. 
+
+The two scripts will output submission_auto_vgg_facenet.csv and submission_vggmodel.csv. You can submit the results in Kaggle to view scores.
 
 Kinship_other.py contains all un-used code like PCA, KAZE, SVM etc. It's not part of the final model.
 
